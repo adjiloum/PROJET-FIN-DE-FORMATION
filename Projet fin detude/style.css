@@ -1,0 +1,217 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+.navbr{
+    background-color: green;
+    position: fixed;
+    width: 100%;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+
+}/**** MENU ****/
+.navbr .container .menu-container li{
+  display: inline-block;
+}
+.navbr .container a{
+    color: white;
+}
+.navbr .container .menu-container ul{
+    padding: 15px 15px;
+}
+.navbr .container .menu-container li{
+    margin-left: 100px;
+    font-size: 20px;
+    font-weight: 10;
+}
+.menu-container a:hover{
+    color: black;
+    transition: 0,8s;
+    
+}
+/********** Traitement du logo gauche*********************/
+.container .logo-container a{
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container .logo-container span{
+    color: black;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/************* Traitement de la section 1 (une) *******/
+
+.section1{
+    height: 500px; 
+    background: url('image10.jpeg');
+}
+.section1 .container2{
+    padding-top: 200px;
+    padding-left: 50px;
+    color: white;
+}
+.section1 .container2 .text1 {
+    font-size: 35px;
+}
+.section1 .container2 .text2 {
+    font-size: 45px;
+    font-weight: 500;
+    color: green;
+}
+.section1 .container2 .text3 {
+    font-size: 27px;
+    font-weight: 500;
+}
+.section1 .container2 .text3 span{
+    font-size: 27;
+    font-weight: 500;
+    color:white;
+}
+/**********BOUTON 1**********/
+.section1 .container2 .bouton1 a{
+    border: 2px solid green;
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+}
+
+.section1 .container2 .bouton1 {
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.section1 .container2 .bouton1 :hover{
+    background: none;
+}
+/********* section 2 ********/
+.section2 {
+    height: 600px;
+    padding: 10px;
+}
+.section2 h2{
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline green;
+}
+.section2 > .container3{
+    display: flex;
+    padding: 10px 80px;
+}
+.container-text{
+    margin-top: 50px;
+}
+.container-text #p1{
+    font-size: 30px;
+    font-weight: 600;
+    left: 16em;
+    position: relative;
+    
+}
+.container-text #p1 span{
+    color: green;
+    position: relative;
+    
+    
+    
+}   
+.container-text #p2{
+    text-align: justify;
+    font-size: 20px;
+    position: relative;
+    left: 16em;
+}
+.image img{
+    height: 220px;
+    width: 210px;
+    position: relative;
+    left: 10em;
+    
+}
+/**************** SECTION 3 *****************/
+.section3 {
+    height: 500px;
+    background-color: black;
+    padding: 50px 100px;
+    color: #fff;
+
+}
+/********* SECTION COMPETENCES ***************/
+.h3gauche{
+    width: 90%;
+}
+.comp{
+    display: flex;
+    flex-flow: row-wrap;
+    margin-bottom: 10px;
+
+}
+.comp p{
+    flex: 0 0 40%;
+
+}
+.conteneur-barre{
+    flex: 0 0 60%;
+    border-radius: 5px;
+    background-color: green;
+    border-bottom: 1px ridge: ;green
+
+}
+.barre{
+    display: block;
+    height: 100%;
+    border-top-right-radius: 5px;
+
+}
+.c98{
+    width: 85%;
+    background-color: green;
+
+}
+.c90{
+    width: 90;
+    background-color: green;
+
+}
+.c95{
+    width: 95%;
+    background-color: green;
+
+}
+.c95{
+    width: 95%;
+    background-color: green;
+    border-radius: 5px;
+
+}
+.com2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.conteneur-barre2{
+    flex: 0 0 100%;
+    height: 0 .5em;
+    margin-bottom: 0.25em;
+    border-radius: 5px;
+    background-color: grey,
+
+}
+
+
+
+
+    
+
+
+       
+
+
+
+
